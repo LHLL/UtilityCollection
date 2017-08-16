@@ -12,6 +12,8 @@
 		BAEF374A1F43DE240001F02A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAEF37481F43DE240001F02A /* Main.storyboard */; };
 		BAEF374C1F43DE240001F02A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAEF374B1F43DE240001F02A /* Assets.xcassets */; };
 		BAEF374F1F43DE240001F02A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAEF374D1F43DE240001F02A /* LaunchScreen.storyboard */; };
+		BAEF37591F43DE5A0001F02A /* AlertCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEF37571F43DE5A0001F02A /* AlertCenter.swift */; };
+		BAEF375A1F43DE5A0001F02A /* DeviceStatusMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEF37581F43DE5A0001F02A /* DeviceStatusMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BAEF374B1F43DE240001F02A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAEF374E1F43DE240001F02A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAEF37501F43DE240001F02A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAEF37571F43DE5A0001F02A /* AlertCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertCenter.swift; sourceTree = "<group>"; };
+		BAEF37581F43DE5A0001F02A /* DeviceStatusMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceStatusMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +59,23 @@
 			isa = PBXGroup;
 			children = (
 				BAEF37441F43DE240001F02A /* AppDelegate.swift */,
+				BAEF37571F43DE5A0001F02A /* AlertCenter.swift */,
+				BAEF37581F43DE5A0001F02A /* DeviceStatusMonitor.swift */,
 				BAEF37461F43DE240001F02A /* ViewController.swift */,
 				BAEF37481F43DE240001F02A /* Main.storyboard */,
+				BAEF37561F43DE330001F02A /* SupportingFiles */,
+			);
+			path = UtilityCollection;
+			sourceTree = "<group>";
+		};
+		BAEF37561F43DE330001F02A /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
 				BAEF374B1F43DE240001F02A /* Assets.xcassets */,
 				BAEF374D1F43DE240001F02A /* LaunchScreen.storyboard */,
 				BAEF37501F43DE240001F02A /* Info.plist */,
 			);
-			path = UtilityCollection;
+			name = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAEF375A1F43DE5A0001F02A /* DeviceStatusMonitor.swift in Sources */,
+				BAEF37591F43DE5A0001F02A /* AlertCenter.swift in Sources */,
 				BAEF37471F43DE240001F02A /* ViewController.swift in Sources */,
 				BAEF37451F43DE240001F02A /* AppDelegate.swift in Sources */,
 			);
